@@ -1,0 +1,23 @@
+/*
+ * Copyright 2009-2010 Alexandre Deckner. All rights reserved.
+ * Distributed under the terms of the MIT License.
+ *
+ * Authors:
+ * 		Alexandre Deckner alex@zappotek.com
+ */
+
+resource app_signature "application/x-vnd.Haiku-Ripple";
+
+resource app_version {
+	major  = 1,
+	middle = 0,
+	minor  = 0,
+
+	variety = B_APPV_BETA,
+	internal = 0,
+
+	short_info = "Ripple",
+	long_info = "Ripple ©2009-2010 Alexandre Deckner"
+};
+
+resource app_flags B_MULTIPLE_LAUNCH;

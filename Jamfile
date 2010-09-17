@@ -1,0 +1,16 @@
+SubDir HAIKU_TOP src apps ripple ;
+
+Application Ripple :
+	App.cpp
+	MainWindow.cpp
+	MathUtils.cpp
+	
+	# clip renderers
+	
+	TestRenderer.cpp
+	WaveRenderer.cpp
+	
+
+	: be game $(TARGET_LIBSTDC++)
+	: Ripple.rdef
+;
